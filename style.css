@@ -222,3 +222,72 @@ th {
  #h_headerPanel a {
     text-decoration: none;
  }
+
+ .navbar {
+  background-color: #15008b;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 16px;
+    font-family: "Arial";
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.menu > li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  padding: 1rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.menu a:hover {
+  background-color: #579ada;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #54aadb;
+  min-width: 200px;
+  z-index: 1000;
+  list-style: none; /* USUWA KÓŁKA */
+  padding: 0;
+  margin: 0;
+}
+
+.submenu a {
+  color: #000ba8;
+}
+
+.submenu li a {
+  padding: 0.75rem 1rem;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu a:hover {
+  background-color: #797979;
+}
+
+.menu, .submenu {
+  list-style: none;
+}
