@@ -1,245 +1,38 @@
+/* ==========================================================================
+   RESET I MOTYW KOLORYSTYCZNY DWZZM (CIEMNY GRANAT / CHABER / BŁĘKIT)
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
 body {
-   
-	background-color: rgb(40, 65, 136);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 60%;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom:40px;
-   }
-th {
-    margin-bottom: 10px;
-}   
-
-   
-.tdtd1 {
-    border-bottom: 1px solid rgb(34, 34, 34);
-   }
-  #body {
-      
-      background-position: center;
-      background-attachment: fixed;
-      width: 1000px;
-      margin: 0 auto;
-      margin-top: 3px;
-      background-color: rgba(4, 0, 65, 0.932);
-      border: 3px solid #202020;
-  }
-  #body2 {
-      
-    background-position: center;
-    background-attachment: fixed;
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 0px;
-    background-color: rgba(4, 0, 65, 0.932);
-    border: 3px solid #202020;
-    line-height: 1.5;
-    border-bottom: none;
-}
-#body3 {
-      
-    background-position: center;
-    background-attachment: fixed;
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 0px;
-    background-color: rgba(4, 0, 65, 0.932);
-    border: 3px solid #202020;
-    line-height: 1.5;
-    border-top: none;
-}
-#body4 {
-      
-    background-position: center;
-    background-attachment: fixed;
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 0px;
-    background-color: rgba(4, 0, 65, 0.932);
-    border: 3px solid #202020;
-    line-height: 1.5;
-}
- 
-#h_banner {
-	padding-bottom: 12px;
-	padding-top: 10px;
-	font-size: 12px;
-}
-#header{
-    min-height: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.fs1 {  
-    font-size: 15px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    color: rgb(209, 209, 209)
-    
-    
-}
-.fs2 {  
-    font-size: 15px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    color: rgb(209, 209, 209)
-}
-.fs3 {  
-    font-size: 20px;
-    font-family: "Times new roman";
-    margin: 5%;
-    color: rgb(209, 209, 209)
-}
-.fs4 {  
-    font-size: 20px;
-    font-family: "Times new roman";
-    margin: 10px;
-    color: rgb(209, 209, 209)
-}
-.fs5 {  
-    font-size: 10px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    animation: blinker 1.5s linear infinite;
-    color: rgb(0, 233, 31)
-}
-.fs6 {  
-    font-size: 10px;
-    font-family: "Sans-serif", Verdana;
-    margin: 5%;
-    animation: blinker 1.5s linear infinite;
-    color: rgb(119, 32, 141)
-}
-@keyframes blinker {
-    50% {
-        opacity: 0.6;
-    }
-}
-.noBorder{
-    border-bottom: 2px;
-    border-bottom-style: none;
-    border-bottom-color: rgb(209, 209, 209)
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #030825;
+  color: #f1f3f5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
 }
 
-.width100p{
-    width: 100%;
-}
-
-.width15p{
-    width: 15%;
-}
-.width85p{
-    width: 85%;
-}
-
-.width50px {
-    width: 50px;
-}
-.width150px {
-    width: 150px;
-}
-
-.width75px {
-    width: 75px;
-}
-
-.width90px {
-    width: 90px;
-}
-
-.width100px {
-    width: 100px;
-}
-.width100px2 {
-    width: 100px;
-}
-
-.width30px {
-    width: 30px;
-}
-
-.width700px {
-    width: 60%;
-}
-.width95p {
-    width: 95%;
-}
-
-#h_headerMenu {
-	position:relative;
-    float:left;
-}
-#h_headerMenu ul {
-	list-style: none;
-	padding-left: 0px;
-	margin-top: 0px;
-}
-#h_headerMenu ul li a {
-	list-style: none;
-    display: inline-block;
-    text-decoration: none;
-}
-#h_headerMenu ul a {
-	padding-right: 10px;
-	padding-left: 10px;
-    color: rgb(67, 147, 221)
-}
-#h_headerMenu li a:hover {
-    background-color: rgb(80, 21, 95); 
-    text-decoration: underline;
-}
-#h_headerMenu table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-#h_headerPanel li a:hover{
-    background-color:  rgb(80, 21, 95);
-    text-decoration: underline;
- }
- #h_headerPanel ul {
-	list-style: none;
-	padding-left: 20px;
-	margin-top: 0px;
- }
- #h_headerPanel ul li {
-	list-style: none;
-    display: inline-block;
- }
- #h_headerPanel ul a {
-	padding-right: 10px;
-	padding-left: 10px;
-    color:  rgb(67, 147, 221)
- }
- #h_headerPanel a {
-    text-decoration: none;
- }
-
- .navbar {
-  background-color: #15008b;
+/* ==========================================================================
+   PASEK NAWIGACYJNY
+   ========================================================================== */
+.navbar {
+  background-color: #060e3b;
+  width: 100%;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  font-size: 16px;
-    font-family: "Arial";
+  border-bottom: 2px solid #2855b8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
 }
 
 .menu {
   list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0;
 }
 
 .menu > li {
@@ -248,15 +41,19 @@ th {
 
 .menu a {
   display: block;
-  padding: 1rem 1.5rem;
-  color: white;
+  color: #f8fafc;
   text-decoration: none;
-  font-weight: 500;
-  transition: background 0.3s;
+  padding: 14px 20px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.menu a:hover {
-  background-color: #579ada;
+.menu > li > a:hover {
+  background-color: #12226e;
+  color: #63a5ff;
 }
 
 .submenu {
@@ -264,30 +61,365 @@ th {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #54aadb;
-  min-width: 200px;
-  z-index: 1000;
-  list-style: none; /* USUWA KÓŁKA */
+  background: #09154f;
+  min-width: 250px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.submenu a {
-  color: #000ba8;
+  border: 1px solid #2855b8;
+  border-top: none;
+  z-index: 1001;
 }
 
 .submenu li a {
-  padding: 0.75rem 1rem;
+  color: #dbe4ff;
+  padding: 10px 16px;
+  text-transform: none;
+  font-size: 13px;
+  font-weight: 500;
+  border-bottom: 1px solid #142577;
+}
+
+.submenu li:last-child a {
+  border-bottom: none;
+}
+
+.submenu li a:hover {
+  background-color: #1b3394;
+  color: #ffffff;
 }
 
 .menu li:hover .submenu {
   display: block;
 }
 
-.submenu a:hover {
-  background-color: #797979;
+/* ==========================================================================
+   GŁÓWNY KONTENER I NAGŁÓWEK URZĘDOWY
+   ========================================================================== */
+.main-wrapper {
+  max-width: 1100px;
+  margin: 30px auto 100px auto;
+  padding: 0 16px;
 }
 
-.menu, .submenu {
-  list-style: none;
+.registry-header {
+  background: #0a1344;
+  border: 2px solid #2855b8;
+  border-radius: 4px;
+  padding: 24px 28px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-emblem-box {
+  flex-shrink: 0;
+}
+
+.header-emblem {
+  width: 85px;
+  height: auto;
+  display: block;
+}
+
+.header-text-box h1 {
+  font-size: 22px;
+  margin: 0 0 4px 0;
+  color: #63a5ff;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #a5c7ff;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.legal-basis {
+  font-size: 13px;
+  color: #d1d5db;
+  line-height: 1.5;
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.operator {
+  font-size: 11px;
+  font-weight: 700;
+  color: #58a6ff;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   LEGENDA I WYSZUKIWARKA
+   ========================================================================== */
+.vassal-box {
+  background: #070f38;
+  border-left: 4px solid #388bfd;
+  border-top: 1px solid #1e397c;
+  border-right: 1px solid #1e397c;
+  border-bottom: 1px solid #1e397c;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border-radius: 0 4px 4px 0;
+}
+
+.vassal-title {
+  color: #63a5ff;
+  display: block;
+  font-size: 12px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.legend-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: #d1d5db;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px 14px;
+  font-size: 14px;
+  background-color: #060d31;
+  color: #ffffff;
+  border: 1px solid #2855b8;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #58a6ff;
+  box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.25);
+}
+
+.search-box button {
+  padding: 10px 22px;
+  background: #2855b8;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  transition: background-color 0.2s ease;
+}
+
+.search-box button:hover {
+  background: #396de2;
+}
+
+/* ==========================================================================
+   PASEK ZAKŁADEK (ROCZNIKI)
+   ========================================================================== */
+.tabs-bar {
+  display: flex;
+  gap: 4px;
+  border-bottom: 2px solid #2855b8;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.tab-button {
+  background: #060d31;
+  border: 1px solid #1e397c;
+  border-bottom: none;
+  padding: 11px 18px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #a5c7ff;
+  cursor: pointer;
+  border-radius: 4px 4px 0 0;
+  transition: all 0.2s ease;
+}
+
+.tab-button:hover {
+  background: #0f1c5e;
+  color: #ffffff;
+}
+
+.tab-button.active {
+  background: #2855b8;
+  color: #ffffff;
+  border-color: #2855b8;
+}
+
+/* ==========================================================================
+   KARTY I TABELE REJESTRU
+   ========================================================================== */
+.item-card {
+  background: #0a1344;
+  border: 2px solid #2855b8;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.item-header {
+  background: #060e35;
+  padding: 14px 20px;
+  border-bottom: 1px solid #1e397c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-sig {
+  font-size: 16px;
+  font-weight: 700;
+  color: #63a5ff;
+}
+
+.badge-grand {
+  background: #102d69;
+  color: #79c0ff;
+  border: 1px solid #388bfd;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  padding: 16px;
+}
+
+.official-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.official-table th, .official-table td {
+  border: 1px solid #1e397c;
+  padding: 10px 12px;
+  vertical-align: middle;
+}
+
+.official-table th {
+  background: #040924;
+  color: #63a5ff;
+  font-weight: 700;
+}
+
+.official-table tbody tr {
+  background-color: #0a1344;
+}
+
+.official-table tbody tr:nth-child(even) {
+  background-color: #070e33;
+}
+
+.official-table tbody tr:hover {
+  background-color: #122066;
+}
+
+/* ==========================================================================
+   ETYKIETY STATUSÓW (BADGES)
+   ========================================================================== */
+.badge-status {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+  white-space: nowrap;
+  letter-spacing: 0.4px;
+}
+
+.status-active {
+  background: #143818;
+  color: #56d364;
+  border: 1px solid #238636;
+}
+
+.status-repealed {
+  background: #391942;
+  color: #d2a8ff;
+  border: 1px solid #8957e5;
+}
+
+/* ==========================================================================
+   IKONY PLIKÓW I ODNOŚNIKI
+   ========================================================================== */
+.file-icons {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.file-link:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.legacy-icon {
+  width: 44px;
+  height: auto;
+  display: block;
+}
+
+/* ==========================================================================
+   KOMUNIKATY I STOPKA
+   ========================================================================== */
+.search-no-results {
+  padding: 14px 18px;
+  background: #381216;
+  border: 1px solid #f85149;
+  color: #ff7b72;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.footer-fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #060e3b;
+  color: #d1d5db;
+  text-align: center;
+  padding: 12px 10px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-top: 1px solid #2855b8;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .registry-header {
+    flex-direction: column;
+    text-align: center;
+  }
 }
