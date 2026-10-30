@@ -9,12 +9,11 @@
 .portal-nav summary{list-style:none}.portal-nav summary::-webkit-details-marker{display:none}
 .portal-nav .portal-menu>li>a:hover,.portal-nav .portal-menu>li>details>summary:hover,.portal-nav details[open]>summary,.portal-nav .portal-menu>li:focus-within>details>summary{background:var(--portal-hover);color:var(--portal-accent)}
 .portal-nav .portal-submenu{display:none;position:absolute;top:100%;left:0;min-width:250px;background:var(--portal-submenu);border:1px solid var(--portal-border);border-top:0;box-shadow:0 4px 12px rgba(0,0,0,.5);z-index:1}
-.portal-nav li:hover>.portal-submenu,.portal-nav li:focus-within>.portal-submenu,.portal-nav details:hover>.portal-submenu,.portal-nav details[open]>.portal-submenu,.portal-nav details:focus-within>.portal-submenu{display:block}
+.portal-nav details[open]>.portal-submenu{display:block}
 .portal-nav .portal-submenu a{white-space:normal;text-transform:none;font-size:13px;font-weight:500;letter-spacing:0;padding:10px 16px;border-bottom:1px solid var(--portal-divider)}
 .portal-nav .portal-submenu li:last-child a{border-bottom:0}
 .portal-nav .portal-submenu a:hover,.portal-nav .portal-submenu a:focus-visible{background:var(--portal-submenu-hover);color:var(--portal-accent)}
 .portal-nav a:focus-visible,.portal-nav summary:focus-visible{outline:2px solid var(--portal-accent);outline-offset:-3px}
 @media(max-width:680px){.portal-nav a,.portal-nav summary{padding:11px 12px;font-size:11px}.portal-nav .portal-submenu{min-width:min(270px,90vw)}.portal-nav .portal-menu>li:nth-last-child(-n+2) .portal-submenu{left:auto;right:0}}
 @media print{.portal-nav{display:none}}
-
 :root{--portal-bg:#060e3b;--portal-border:#2855b8;--portal-hover:#12226e;--portal-accent:#9ac5ff;--portal-submenu:#09154f;--portal-submenu-hover:#1b3394;--portal-divider:#142577;--portal-text:#eaf1ff}
